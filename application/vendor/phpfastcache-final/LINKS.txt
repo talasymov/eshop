@@ -1,0 +1,2 @@
+Main site - http://www.phpfastcache.com/
+github - https://github.com/PHPSocialNetwork/phpfastcache

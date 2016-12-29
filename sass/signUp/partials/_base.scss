@@ -1,0 +1,51 @@
+.signUpForm {
+  input {
+    display: block;
+    width: 90%;
+    height: 40px;
+    @include border-radius(3px);
+    border: 1px solid #243280;
+    margin-top: 25px;
+    padding-left: 10px;
+    font-size: 20px;
+    outline: none;
+  }
+  .login, .email, .name, .password, .password_confirm, .surname {
+    i {
+      display: none;
+    }
+  }
+  .gender {
+    button {
+      border: 1px solid #243280;
+      outline: none;
+      background-color: #ff6625;
+      @include border-radius(3px);
+      color: white;
+      height: 35px;
+    }
+    margin-bottom: 15px;
+  }
+}
+
+.submit {
+  margin-bottom: 30px;
+  button {
+    border: 1px solid #243280;
+    outline: none;
+    height: 40px;
+    width: 150px;
+    text-align: center;
+    @include border-radius(3px);
+    background-color: #3863ff;
+    color: white;
+    @include transition(.1s ease);
+
+    &:hover {
+      @include transform(scale(0.97, 0.97));
+    }
+    &:active {
+      @include transform(scale(1.001, 1.001));
+    }
+  }
+}

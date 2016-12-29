@@ -1,0 +1,67 @@
+.photo-profile {
+    margin-top: 20px;
+    text-align: center;
+    position: relative;
+    width: 100%;
+
+    #profile-ava {
+        width: 60%;
+        height: 200px;
+    }
+}
+
+.upload-profile-photo {
+    position: relative;
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+
+    #profile-photo-upl-in {
+        width: 50%;
+    }
+
+    #profile-photo-upl-btn {
+        width: 30px;
+    }
+}
+
+.select-sex-profile {
+    text-align: justify;
+    margin-left: 20%;
+    margin-top: 20px;
+}
+
+.save-profile {
+    margin-left: 20%;
+
+    #saveProfileBtn {
+        width: 150px;
+    }
+}
+
+.second-profile-col {
+    margin-top: 10px;
+    width: 100%;
+    position: relative;
+
+    input {
+        margin: 10px;
+        width: 60%;
+    }
+}
+
+.third-profile-col {
+    margin-top: 20px;
+    text-align: center;
+
+    #profile-interests-ta {
+        margin: 5px;
+        width: 60%;
+        height: 150px;
+    }
+
+    input {
+        margin-top: 20px;
+        width: 60%;
+    }
+}

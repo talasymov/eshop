@@ -1,0 +1,63 @@
+@mixin border-radius($amount:0px) {
+    -webkit-border-radius: $amount;
+    -moz-border-radius   : $amount;
+    border-radius        : $amount;
+}
+@mixin box-shadow($top, $left, $blur, $spread, $color, $inset: false) {
+     @if $inset{
+        -webkit-box-shadow: inset $top $left $blur $spread $color;
+        -moz-box-shadow   : inset $top $left $blur $spread $color;
+        box-shadow        : inset $top $left $blur $spread $color;
+    }
+    @else {
+        -webkit-box-shadow: $top $left $blur $spread $color;
+        -moz-box-shadow   : $top $left $blur $spread $color;
+        box-shadow        : $top $left $blur $spread $color;
+    }
+}
+@mixin add-font-face($family, $font-url, $font-weight:normal, $font-style:normal) {
+     @font-face{
+        font-family: $family;
+        font-weight: $font-weight;
+        font-style : $font-style;
+        src        : local($family), url($font-url+".ttf") format('truetype');
+    }
+}
+@mixin transition($transition...) {
+    -webkit-transition: $transition;
+    -moz-transition   : $transition;
+    -o-transition     : $transition;
+    transition        : $transition;
+}
+@mixin transform($transform...) {
+    -moz-transform   : $transform;
+    -ms-transform    : $transform;
+    -webkit-transform: $transform;
+    -o-transform     : $transform;
+    transform        : $transform;
+}
+$small: 480px;
+$large: 1024px;
+@mixin respond-to($media) {
+     @if $media == handhelds{
+        @media only screen and (max-width: $small) {
+             @content;
+        }
+    }
+    @else if $media == medium-screens {
+         @media only screen and (min-width: $small + 1) and (max-width: $large - 1){
+            @content;
+        }
+    }
+    @else if $media == wide-screens {
+         @media only screen and (min-width: $large){
+            @content;
+        }
+    }
+}
+@mixin centerer {
+    position : absolute;
+    top      : 50%;
+    left     : 50%;
+    transform: translate(-50%, -50%);
+}

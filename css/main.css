@@ -1,0 +1,374 @@
+#header, #footer {
+  height: 150px;
+  background-color: green; }
+
+.adminTab {
+  display: inline-block;
+  background-color: pink;
+  position: relative;
+  color: black;
+  text-decoration: none;
+  float: left;
+  border-right: 1px solid black; }
+  .adminTab:first-child {
+    border-left: 1px solid black; }
+  .adminTab div {
+    width: 182px;
+    height: 50px;
+    position: relative; }
+    .adminTab div p {
+      margin: 0;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -webkit-transform: translate(-50%, -50%);
+          -ms-transform: translate(-50%, -50%);
+              transform: translate(-50%, -50%); }
+  .adminTab:hover {
+    color: white;
+    background-color: blue; }
+
+.photo-profile {
+  margin-top: 20px;
+  text-align: center;
+  position: relative;
+  width: 100%; }
+  .photo-profile #profile-ava {
+    width: 60%;
+    height: 200px; }
+
+.upload-profile-photo {
+  position: relative;
+  width: 100%;
+  margin-top: 20px;
+  text-align: center; }
+  .upload-profile-photo #profile-photo-upl-in {
+    width: 50%; }
+  .upload-profile-photo #profile-photo-upl-btn {
+    width: 30px; }
+
+.select-sex-profile {
+  text-align: justify;
+  margin-left: 20%;
+  margin-top: 20px; }
+
+.save-profile {
+  margin-left: 20%; }
+  .save-profile #saveProfileBtn {
+    width: 150px; }
+
+.second-profile-col {
+  margin-top: 10px;
+  width: 100%;
+  position: relative; }
+  .second-profile-col input {
+    margin: 10px;
+    width: 60%; }
+
+.third-profile-col {
+  margin-top: 20px;
+  text-align: center; }
+  .third-profile-col #profile-interests-ta {
+    margin: 5px;
+    width: 60%;
+    height: 150px; }
+  .third-profile-col input {
+    margin-top: 20px;
+    width: 60%; }
+
+.signUpForm input {
+  display: block;
+  width: 90%;
+  height: 40px;
+  border-radius: 3px;
+  border: 1px solid #243280;
+  margin-top: 25px;
+  padding-left: 10px;
+  font-size: 20px;
+  outline: none; }
+.signUpForm .login i, .signUpForm .email i, .signUpForm .name i, .signUpForm .password i, .signUpForm .password_confirm i, .signUpForm .surname i {
+  display: none; }
+.signUpForm .gender {
+  margin-bottom: 15px; }
+  .signUpForm .gender button {
+    border: 1px solid #243280;
+    outline: none;
+    background-color: #ff6625;
+    border-radius: 3px;
+    color: white;
+    height: 35px; }
+
+.submit {
+  margin-bottom: 30px; }
+  .submit button {
+    border: 1px solid #243280;
+    outline: none;
+    height: 40px;
+    width: 150px;
+    text-align: center;
+    border-radius: 3px;
+    background-color: #3863ff;
+    color: white;
+    -webkit-transition: 0.1s ease;
+    transition: 0.1s ease; }
+    .submit button:hover {
+      -ms-transform: scale(0.97, 0.97);
+      -webkit-transform: scale(0.97, 0.97);
+      transform: scale(0.97, 0.97); }
+    .submit button:active {
+      -ms-transform: scale(1.001, 1.001);
+      -webkit-transform: scale(1.001, 1.001);
+      transform: scale(1.001, 1.001); }
+
+.choiced {
+  background-color: #3d51ff !important; }
+  .choiced:before {
+    content: '\2713';
+    margin-right: 5px; }
+
+.errorInputAnimation {
+  position: relative; }
+  .errorInputAnimation i, .errorInputAnimation input {
+    display: inline-block; }
+  .errorInputAnimation i {
+    display: inline-block !important;
+    font-size: 24px;
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    color: red; }
+  .errorInputAnimation input {
+    padding-left: 35px;
+    border: 1px solid red; }
+
+.link-panel {
+  width: 100%;
+  position: relative; }
+
+.top-panel-link {
+  display: inline-block;
+  height: 40px;
+  width: 25%;
+  color: darkblue;
+  background-color: white;
+  position: relative;
+  margin-left: -5px; }
+  .top-panel-link p {
+    text-align: center;
+    padding-top: 10px; }
+  .top-panel-link:hover {
+    background-color: darkblue;
+    color: white; }
+
+.telephone-data .telephone-btn {
+  cursor: pointer; }
+  .telephone-data .telephone-btn:hover {
+    background-color: #ff5e50; }
+
+.search {
+  background: white;
+  border-radius: 4px;
+  margin-top: 5px;
+  font-size: 20px;
+  padding-left: 12px; }
+  .search input, .search button {
+    height: 40px;
+    background: transparent;
+    border: none;
+    outline: none; }
+  .search #searchInp {
+    width: 95%; }
+  .search button {
+    width: 5%;
+    float: right;
+    text-align: center;
+    border-left: 1px solid #71756a; }
+
+.product-wrap {
+  width: 100%; }
+  .product-wrap .container-fluid {
+    display: inline-block;
+    width: 79%; }
+
+#characteristics-sidebar {
+  width: 20%;
+  height: 100%;
+  float: left;
+  display: inline-block; }
+
+.main-img {
+  position: relative;
+  height: 300px;
+  width: auto; }
+  .main-img img {
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%; }
+  .main-img:after {
+    content: "";
+    clear: both; }
+
+.carousel-img {
+  position: relative;
+  width: 100%;
+  overflow: hidden; }
+  .carousel-img .item img {
+    left: 0;
+    top: 0;
+    width: 100%; }
+  .carousel-img:after {
+    content: "";
+    clear: both; }
+
+.compare_and_favorite .compare, .compare_and_favorite .favorite {
+  display: inline-block; }
+
+.product-nav {
+  padding-top: 10px;
+  margin-top: 10px;
+  padding-bottom: 10px;
+  border-top: 1px solid #959595; }
+  .product-nav .product-nav-block {
+    display: inline-block;
+    width: 33%;
+    text-align: left;
+    height: 35px;
+    margin-left: -5px; }
+    .product-nav .product-nav-block p {
+      padding-left: 10px;
+      padding-top: 8px; }
+    .product-nav .product-nav-block:hover {
+      background-color: #c6c6c6;
+      color: white; }
+  .product-nav a {
+    color: black; }
+    .product-nav a:hover {
+      text-decoration: none; }
+
+.price_and_buy {
+  background-color: #dbdbdb;
+  padding-top: 10px;
+  padding-bottom: 25px; }
+  .price_and_buy .price, .price_and_buy .buy {
+    display: inline-block; }
+  .price_and_buy .price {
+    margin-top: 10px;
+    color: black;
+    padding-left: 15px;
+    font-size: 24px; }
+  .price_and_buy .buy {
+    float: right;
+    margin-right: 50px; }
+    .price_and_buy .buy button {
+      background-color: black;
+      color: white;
+      border: none;
+      height: 45px;
+      width: 150px;
+      outline: none;
+      border-radius: 2px; }
+
+.compare_and_favorite {
+  margin-top: 5px;
+  padding-bottom: 15px; }
+  .compare_and_favorite a {
+    color: black; }
+
+.product-name-characteristics {
+  color: grey; }
+
+#product-characteristics td {
+  width: 50%; }
+
+.owl-item {
+  display: inline-block; }
+
+.disabled {
+  display: none; }
+
+.cb {
+  clear: both; }
+
+.favorite-added {
+  color: yellow;
+  -webkit-transform: scale(1.02, 1.02);
+      -ms-transform: scale(1.02, 1.02);
+          transform: scale(1.02, 1.02); }
+
+.favorite-not-added {
+  color: black; }
+
+.pluso-more {
+  display: none !important; }
+
+#characteristics-form {
+  padding-left: 35px;
+  padding-top: 40px; }
+
+#price-slider {
+  width: 200px; }
+
+.searchSlideBlock {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-left: 15px;
+  display: none; }
+
+.searchSlideBtn {
+  margin-top: 20px;
+  background: transparent;
+  border: none;
+  outline: none;
+  position: relative; }
+  .searchSlideBtn span {
+    font-size: 18px; }
+    .searchSlideBtn span i {
+      -webkit-transition: 0.2s ease;
+      transition: 0.2s ease;
+      float: left;
+      margin-top: 5px;
+      margin-right: 5px;
+      font-size: 12px;
+      -ms-transform: rotate(-90deg);
+      -webkit-transform: rotate(-90deg);
+      transform: rotate(-90deg); }
+
+#price-search-result {
+  padding-top: 10px; }
+
+.searchBtns {
+  padding-top: 25px;
+  padding-left: 15px;
+  padding-bottom: 25px; }
+  .searchBtns input {
+    background-color: black;
+    color: white;
+    margin-left: 10px;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    width: 80px;
+    height: 35px;
+    -webkit-transition: 0.2s ease;
+    transition: 0.2s ease; }
+    .searchBtns input:hover {
+      -ms-transform: scale(0.95, 0.95);
+      -webkit-transform: scale(0.95, 0.95);
+      transform: scale(0.95, 0.95); }
+    .searchBtns input:active {
+      -ms-transform: scale(1, 1);
+      -webkit-transform: scale(1, 1);
+      transform: scale(1, 1); }
+
+.slider-value {
+  background-color: red;
+  height: 15px; }
+
+.slider-points {
+  background-color: #828282 !important;
+  outline: none;
+  background-image: none !important;
+  border-radius: 360px; }
+
+/*# sourceMappingURL=main.css.map */

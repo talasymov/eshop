@@ -1,0 +1,56 @@
+.link-panel {
+  width: 100%;
+  position: relative;
+}
+
+.top-panel-link {
+  display: inline-block;
+  height: 40px;
+  width: 25%;
+  color: darkblue;
+  background-color: white;
+  position: relative;
+  margin-left: -5px;
+  p {
+    text-align: center;
+    padding-top: 10px;
+  }
+  &:hover {
+    background-color: darkblue;
+    color: white;
+  }
+}
+
+.telephone-data {
+  .telephone-btn {
+    cursor: pointer;
+    &:hover {
+      background-color: #ff5e50;
+    }
+  }
+}
+
+.search {
+  background:white;
+  @include border-radius(4px);
+  margin-top:5px;
+  font-size:20px;
+  padding-left:12px;
+
+  input,button{
+    height:40px;
+    background:transparent;
+    border:none;
+    outline:none;
+  }
+  #searchInp {
+    width: 95%;
+  }
+  button {
+    width: 5%;
+    float: right;
+    text-align: center;
+    border-left:1px solid #71756a;
+  }
+
+}
