@@ -1,7 +1,7 @@
 <?php
 
  ?>
- <script src="/js/ajaxAdmin.js" charset="utf-8"></script>
+ <script src="/js/admin.js" charset="utf-8"></script>
 <div class="container-fluid">
   <div class="row">
     <div class="col-md-12 text-left">

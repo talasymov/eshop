@@ -32,7 +32,7 @@
 
     <script src="/js/main.js" charset="utf-8"></script>
     <script src="/js/authorization.js" charset="utf-8"></script>
-    <script src="/js/ajaxAdmin.js" charset="utf-8"></script>
+    <script src="/js/admin.js" charset="utf-8"></script>
     <script src="/js/profile.js" charset="utf-8"></script>
     <script src="/js/product.js"></script>
 

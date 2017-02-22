@@ -39,7 +39,7 @@ class Controller_Admin extends c\Controller
 
       if($_SESSION['isAdminCorrect']){
         $data = $this->model->getAllData();
-        $this->view->generate('adminMainTrue_view.php','template_main_view.php',$data);
+        $this->view->generate('admin_success.php','template_main_view.php',$data);
       }
       else{
         $this->view->generate('adminMainFalse_view.php','template_main_view.php');
